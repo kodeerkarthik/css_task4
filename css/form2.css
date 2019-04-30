@@ -1,0 +1,45 @@
+:root
+{
+	--height: 40px;
+	--height2: 100px;
+	--width: 400px;
+	--top: 50px;
+}
+
+fieldset	{
+	width: 400px;
+	height: 570px;
+	padding: 60px;
+	background-color: #d0e1e1;
+}
+p	{
+	font-size: 40px;
+	text-align: center;
+	width: var(--width);
+	color: black;
+	height: 20px;
+}
+.name	{
+	width: var(--width);
+	height: var(--height);
+	margin-top: var(--top);
+	border-radius: 30px;
+	background-color: #bfbfbf;
+}
+.msg	{
+	width: var(--width);
+	margin-top:var(--top);
+	height:	var(--height2);
+	border-radius: 20px;
+	text-align: top;
+	background-color: #bfbfbf;
+}
+.send	{
+	width: 200px;
+	height: var(--height);
+	margin-top: var(--top);
+	margin-left: 70px;
+	font-size: 20px;
+	border-radius: 50px;
+	background-color: green;
+}
